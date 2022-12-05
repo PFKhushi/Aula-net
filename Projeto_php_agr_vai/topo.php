@@ -26,7 +26,10 @@
                     <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
                 </form>
 
-                <div class="dropdown text-end">
+                
+                <?php
+                    if(isset($_SESSION['IDUsers']) || isset($_SESSION['UsersUID'])){
+                        echo '<div class="dropdown text-end">
                     <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
                     </a>
@@ -37,9 +40,13 @@
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Sign out</a></li>
                     </ul>
-                </div>
-                <a href="?pg=login"><button type="button" class="btn btn-dark">Login</button></a>
-                <a href="?pg=signup"><button type="button" class="btn btn-light">Sign Up</button></a>
+                </div>';
+                    }else{
+                        echo '<a href="?pg=login"><button type="button" class="btn btn-dark">Login</button></a>
+                            <a href="?pg=signup"><button type="button" class="btn btn-light">Sign Up</button></a>';
+                    }
+                ?>
+                
             </div>
         </div>
     </header>

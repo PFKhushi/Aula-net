@@ -1,7 +1,8 @@
 <?php
 
-include_once("topo.php");
+session_start();
 
+include_once("topo.php");
 
 if(empty($_SERVER["QUERY_STRING"])){
     $var = "inicio.php";

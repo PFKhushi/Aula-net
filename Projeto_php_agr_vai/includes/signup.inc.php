@@ -33,7 +33,7 @@ if(isset($_POST['signup-submit'])){
                 exit();
             }
             else{
-                $sql = "INSERT INTO usuario (UIDUsers, EmailUsers, PWSDUsers) VALUES (?, ?, ?)";
+                $sql = "INSERT INTO usuario (UIDUsers, EmailUsers, PSWDUsers) VALUES (?, ?, ?)";
                 $stmt = mysqli_stmt_init($conn);
                 if(!mysqli_stmt_prepare($stmt, $sql)){
                     header("Location: ?pg=ErrorCred");
@@ -44,7 +44,7 @@ if(isset($_POST['signup-submit'])){
                     $hashedPswd = password_hash($password, PASSWORD_DEFAULT);
                     mysqli_stmt_bind_param($stmt, "sss", $username, $email, $hashedPswd);
                     mysqli_stmt_execute($stmt);
-                    header("Location: ?pg=inicio");
+                    header("Location: index.php");
                     exit();
                 }
             }
@@ -53,5 +53,9 @@ if(isset($_POST['signup-submit'])){
     }
     mysqli_stmt_close($stmt);
     mysqli_close($conn);
+
+}
+else{
+
 
 }

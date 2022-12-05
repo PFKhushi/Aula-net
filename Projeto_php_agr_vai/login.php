@@ -86,12 +86,12 @@
     <body class="text-center">
         
         <main class="form-signin w-100 m-auto">
-            <form style="margin-left: 40%; margin-right: 40%; margin-top: 5%; margin-bottom: 5%" action="includes/login.inc.php" method="POST">
+            <form style="margin-left: 40%; margin-right: 40%; margin-top: 5%; margin-bottom: 5%" action="?pg=includes/login.inc" method="POST">
                 <img class="mb-4" src="images/LOGIN.png" alt="" width="92" height="92">
                 <h1 class="h3 mb-3 fw-normal">Insira seus dados</h1>
 
                 <div class="form-floating">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com\Your_Name" name="mailuid">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com\Your_Name" name="mailuid">
                     <label for="floatingInput">Email address\Username</label>
                 </div>
                 <div class="form-floating">
@@ -104,7 +104,7 @@
                        
                     </label>
                 </div>
-                <button class="w-100 btn btn-lg btn-dark" style="margin-bottom: 2px;" name="signup-submit" type="submit">Login</button>
+                <button class="w-100 btn btn-lg btn-dark" style="margin-bottom: 2px;" name="login-submit" type="submit">Login</button>
             </form>
         </main>  
     </body>
