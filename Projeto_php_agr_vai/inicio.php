@@ -15,36 +15,36 @@
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item"  style=" width:100%; height: 650px !important;">
-            <img src="images/CHESS.jpg"  style="position: relative;" class="d-block w-100">
+            <div class="carousel-item"  style=" width:100%; height: 700px !important;">
+            <img src="images/CHESSS.jpeg"  style="position: relative;" class="d-block w-100">
                 
                 <div class="container">
                     <div class="carousel-caption text-start" style="background: rgba(0, 0, 0, .5)">
-                        <h1>Example headline.</h1>
-                        <p>Some representative placeholder content for the first slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-light" href="#">Play</a></p>
+                        <h1>Chess.</h1>
+                        <p>Two players or madgame modes only. Test your brain.</p>
+                        <p><a class="btn btn-lg btn-light" href="jogos/xadrez/index.php">Play</a></p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item active" style="width:100%; height: 650px !important;">
-            <img src="images/JOGODAFORCA.png"  style="position: relative;" class="d-block w-100">
+            <div class="carousel-item active" style="width:100%; height: 700px !important;">
+            <img src="images/SIC.png"  style="position: relative;" class="d-block w-100">
 
                 <div class="container" >
                     <div class="carousel-caption" style="background: rgba(0, 0, 0, .5)">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-light" href="#">Play</a></p>
+                        <h1>Space Invaders.</h1>
+                        <p>Can you safe the universe?</p>
+                        <p><a class="btn btn-lg btn-light" href="jogos/jogo-de-navinha/index.html">Play</a></p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item"  style=" width:100%; height: 650px !important;">
-            <img src="images/CHESS.jpg"  style="position: relative;" class="d-block w-100">
+            <div class="carousel-item"  style=" width:100%; height: 700px !important;">
+            <img src="images/RIVERCROSSING.jpg"  style="position: relative;" class="d-block w-100">
 
                 <div class="container">
                     <div class="carousel-caption text-end" style="background: rgba(0, 0, 0, .5)">
-                        <h1>One more for good measure.</h1>
-                        <p>Some representative placeholder content for the third slide of this carousel.</p>
-                        <p><a class="btn btn-lg btn-light" href="#">Play</a></p>
+                        <h1>River Crossing.</h1>
+                        <p>Are you smart enough to cross everyone to the other side?</p>
+                        <p><a class="btn btn-lg btn-light" href="jogos/travessia-do-rio/index.php">Play</a></p>
                     </div>
                 </div>
             </div>

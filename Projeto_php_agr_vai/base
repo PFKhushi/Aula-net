@@ -21,3 +21,5 @@
         echo '';
     }
 ?>
+
+SELECT COUNT(*) FROM aboutus;

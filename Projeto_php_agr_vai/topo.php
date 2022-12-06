@@ -11,7 +11,7 @@
     <header style="background:LightGray;" class="p-3 mb-3 border-bottom">
         <div class="container-md">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                <a href="" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
                     <img src="images/GAMEOVER.png" width="52" height="52s">
                 </a>
 
@@ -36,9 +36,7 @@
                                     <img src="https://github.com/mdo.png" alt="mdo" width="52" height="52" class="rounded-circle">
                                 </a>
                                 <ul class="dropdown-menu text-small">
-                                    <li><a class="dropdown-item" href="#">New project...</a></li>
                                     <li><a class="dropdown-item" href="?pg=AdminSettings">Settings</a></li>
-                                    <li><a class="dropdown-item" href="#">Profile</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="includes/logout.inc.php">Sign out</a></li>
                                 </ul>
@@ -50,7 +48,6 @@
                                     <img src="https://github.com/mdo.png" alt="mdo" width="52" height="52" class="rounded-circle">
                                 </a>
                                 <ul class="dropdown-menu text-small">
-                                    <li><a class="dropdown-item" href="#">Profile</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="includes/logout.inc.php">Sign out</a></li>
                                 </ul>

@@ -18,10 +18,10 @@
         <div class="card shadow-sm" style="width: 425px; height: 375px">
             <img style="width: 425px; height: 225px; object-fit: fill;" src="images/2048.jpg">
             <div class="card-body">
-            <h1 class="card-text" style="height: 70px;">2048</h1>
+            <h1 class="card-text" style="height: 70px;">2048 (Broken)</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/2048/index.php" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -36,10 +36,10 @@
           <div class="card shadow-sm" style="width: 425px; height: 375px">
             <img style="width: 425px; height: 225px; object-fit: fill;" src="images/CHECKERS.jpg">
             <div class="card-body">
-            <h1 class="card-text" style="height: 70px;">Checkers</h1>
+            <h1 class="card-text" style="height: 70px;">Checkers (Broken)</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/damas/index.php" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -57,7 +57,7 @@
             <h1 class="card-text" style="height: 70px;">Chess</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/xadrez/index.php" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -76,7 +76,7 @@
             <h1 class="card-text" style="height: 70px;">Dodge</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/dodge/index.html" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -91,10 +91,10 @@
         <div class="card shadow-sm" style="width: 425px; height: 375px">
             <img style="width: 425px; height: 225px; object-fit: fill;" src="images/ESCAPEROOM.jpg">
             <div class="card-body">
-            <h1 class="card-text" style="height: 70px;">Escape Room</h1>
+            <h1 class="card-text" style="height: 70px;">Escape Room (Broken)</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/escape-room/index.html" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -109,10 +109,10 @@
         <div class="card shadow-sm" style="width: 425px; height: 375px">
             <img style="width: 425px; height: 225px; object-fit: fill;" src="images/HANGMAN.jpg">
             <div class="card-body">
-            <h1 class="card-text" style="height: 70px;">Hangman</h1>
+            <h1 class="card-text" style="height: 70px;">Hangman (Broken)</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/jogo-da-forca/index.php" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -131,7 +131,7 @@
             <h1 class="card-text" style="height: 70px;">Matching Game</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/jogo-da-memoria/index.html" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -146,10 +146,10 @@
         <div class="card shadow-sm" style="width: 425px; height: 375px">
             <img style="width: 425px; height: 225px; object-fit: fill;" src="images/PLINKO.jpg">
             <div class="card-body">
-            <h1 class="card-text" style="height: 70px;">Plinko</h1>
+            <h1 class="card-text" style="height: 70px;">Plinko (Broken)</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/plinko/index.html" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -167,7 +167,7 @@
             <h1 class="card-text" style="height: 70px;">River Crossing Game</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/travessia-do-rio/index.php" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -182,10 +182,10 @@
         <div class="card shadow-sm" style="width: 425px; height: 375px">
             <img style="width: 425px; height: 225px; object-fit: fill;" src="images/SNAKE.jpg">
             <div class="card-body">
-            <h1 class="card-text" style="height: 70px;">Snake</h1>
+            <h1 class="card-text" style="height: 70px;">Snake (Broken)</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/jogo-da-cobrinha/index.html" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -203,7 +203,7 @@
             <h1 class="card-text" style="height: 70px;">Space Invaders</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                <a href="jogos/jogo-de-navinha/index.html" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>
@@ -218,10 +218,10 @@
         <div class="card shadow-sm" style="width: 425px; height: 375px">
             <img style="width: 425px; height: 225px; object-fit: fill;" src="images/TICTACTOE.png">
             <div class="card-body">
-            <h1 class="card-text" style="height: 70px;">Tic-Tac-Toe</h1>
+            <h1 class="card-text" style="height: 70px;">Tic-Tac-Toe (Broken)</h1>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-dark">Play!</button>
+                  <a href="jogos/jogo-da-velha/index.html" target="_blank"><button type="button" class="btn btn-sm btn-dark">Play!</button></a>
                 </div>
                 <?php if(isset($_SESSION['UsersID'])){ ?>
                 <small class="text-muted">c:</small>

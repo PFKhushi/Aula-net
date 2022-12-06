@@ -44,7 +44,7 @@
         ?>
         <form>
             <div>Seu Palpite</div>
-            <input class="input-form" type="text" name="n1" placeholder="Jogada" /><br>
+            <input class="input-form" type="text" name="n1" placeholder="Insira uma letra" /><br>
             <input class="btn btn-primary" type="submit" value="Fazer jogo" />
         </form>
 

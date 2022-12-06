@@ -11,11 +11,9 @@
     <div class="container">
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+                <li><a href="?pg=inicio" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="?pg=jogos" class="nav-link px-2 link-dark">Games</a></li>
+                <li><a href="?pg=aboutus" class="nav-link px-2 link-dark">About us</a></li>
             </ul>
             <p class="text-center text-muted">© 2022 Company, Inc</p>
         </footer>
