@@ -45,7 +45,7 @@ if(isset($_POST['signup-submit'])){
                     mysqli_stmt_bind_param($stmt, "sss", $username, $email, $hashedPswd);
                     mysqli_stmt_execute($stmt);
                     header("Location: index.php");
-                    exit();
+                    
                 }
             }
         }

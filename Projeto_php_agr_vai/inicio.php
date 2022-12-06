@@ -15,7 +15,7 @@
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item"  style=" width:100%; height: 500px !important;">
+            <div class="carousel-item"  style=" width:100%; height: 650px !important;">
             <img src="https://i.ytimg.com/vi/fyVKwqu1hMI/maxresdefault.jpg" style="position: relative;" class="d-block w-100">
                 
                 <div class="container">

@@ -29,10 +29,10 @@ if(isset($_POST['login-submit'])){
                     exit();
                 }else if($pswdCheck == true){
                     session_start();
-                    $_SESSION['IDUser'] = $row['UsersID'];
+                    $_SESSION['IDUsers'] = $row['UsersID'];
                     $_SESSION['UserUID'] = $row['UIDUsers'];
                     header("Location: index.php");
-                    exit();
+                    
                 }
                 else{
                     header("Location: ?pg=Errorlogin");
