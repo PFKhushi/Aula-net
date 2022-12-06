@@ -29,8 +29,9 @@ if(isset($_POST['login-submit'])){
                     exit();
                 }else if($pswdCheck == true){
                     session_start();
-                    $_SESSION['IDUsers'] = $row['UsersID'];
-                    $_SESSION['UserUID'] = $row['UIDUsers'];
+                    $_SESSION['UsersID'] = $row['UsersID'];
+                    $_SESSION['UIDUsers'] = $row['UIDUsers'];
+                    $_SESSION['UsersAccess'] = $row['UsersAccess'];
                     header("Location: index.php");
                     
                 }

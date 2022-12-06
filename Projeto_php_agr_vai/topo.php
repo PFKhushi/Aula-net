@@ -30,9 +30,11 @@
                 <?php
                     if(!isset($_SESSION)) session_start();
                     if(isset($_SESSION['IDUsers']) || isset($_SESSION['UIDUsers'])){
-                        echo $_SESSION['IDUsers'];
+                        echo 'Olá, '; echo $_SESSION['UIDUsers']; echo '.          ';
 
-                        echo '<div class="dropdown text-end">
+                        if($_SESSION['UsersAccess'] == 1){
+                            
+                            echo '<div class="dropdown text-end">
                                 <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
                                 </a>
@@ -44,6 +46,22 @@
                                     <li><a class="dropdown-item" href="includes/logout.inc.php">Sign out</a></li>
                                 </ul>
                             </div>';
+
+                        }else{
+                            echo '<div class="dropdown text-end">
+                                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                                </a>
+                                <ul class="dropdown-menu text-small">
+                                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="includes/logout.inc.php">Sign out</a></li>
+                                </ul>
+                            </div>';
+                        }
+
+                        
                     }else{
                         echo '<a href="?pg=login"><button type="button" class="btn btn-dark">Login</button></a>
                             <a href="?pg=signup"><button type="button" class="btn btn-light">Sign Up</button></a>';
