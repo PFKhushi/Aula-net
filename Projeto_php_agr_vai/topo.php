@@ -27,13 +27,13 @@
                 <?php
                     if(!isset($_SESSION)) session_start();
                     if(isset($_SESSION['IDUsers']) || isset($_SESSION['UIDUsers'])){
-                        echo 'Olá, '; echo $_SESSION['UIDUsers']; echo '.    .';
+                        echo 'Welcome, '; echo $_SESSION['UIDUsers']; echo '.    ';
 
                         if($_SESSION['UsersAccess'] == 1){
                             
                             echo '<div class="dropdown text-end">
                                 <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                                    <img src="https://github.com/mdo.png" alt="mdo" width="52" height="52" class="rounded-circle">
                                 </a>
                                 <ul class="dropdown-menu text-small">
                                     <li><a class="dropdown-item" href="#">New project...</a></li>
@@ -47,7 +47,7 @@
                         }else{
                             echo '<div class="dropdown text-end">
                                 <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                                    <img src="https://github.com/mdo.png" alt="mdo" width="52" height="52" class="rounded-circle">
                                 </a>
                                 <ul class="dropdown-menu text-small">
                                     <li><a class="dropdown-item" href="#">Profile</a></li>
