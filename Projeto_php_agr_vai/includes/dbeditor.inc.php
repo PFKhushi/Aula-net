@@ -9,35 +9,38 @@ $cons_data = mysqli_fetch_assoc($cons);
 
 if(isset($_POST['submit-title'])){
 
-    $change = $_POST['title'];
-    $sql = "UPDATE aboutus SET Title='$change' WHERE ID=1";
+    $changet = $_POST['title'];
+    $sql = "UPDATE aboutus SET Title='$changet'";
     $conn->query($sql);
     header("Location: ../?pg=AdminSettings");
+
 
 }else if(isset($_POST['submit-content'])){
 
-    $change = $_POST['content'];
-    $sql = "UPDATE aboutus SET Content='$change' WHERE ID=1";
+    $changec = $_POST['content'];
+    $sql = "UPDATE aboutus SET Content='$changec'";
     $conn->query($sql);
     header("Location: ../?pg=AdminSetting");
+    exit();
 
 }else if(isset($_POST['submit-mail'])){
 
-    $change = $_POST['mail'];
-    $sql = "UPDATE aboutus SET CttMail='$change' WHERE ID=1";
+    $changem = $_POST['mail'];
+    $sql = "UPDATE aboutus SET CttMail='$changem'";
     $conn->query($sql);
     header("Location: ../?pg=AdminSettings");
+    exit();
 
 }else if(isset($_POST['submit-number'])){
 
-    $change = $_POST['number'];
-    $sql = "UPDATE aboutus SET CttNum='$change' WHERE ID=1";
+    $changen = $_POST['number'];
+    $sql = "UPDATE aboutus SET CttNum='$changen'";
     $conn->query($sql);
     header("Location: ../?pg=AdminSettings");
+    exit();
 
 }else{
     header("Location: ../?pg=ErrorCred");
     exit();
 }
 
-$cons_data = mysqli_fetch_assoc($cons);

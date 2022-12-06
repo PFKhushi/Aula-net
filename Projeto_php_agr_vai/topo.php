@@ -17,7 +17,7 @@
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="?pg=inicio" class="nav-link px-2 link-secondary">Home</a></li>
-                    <li><a href="#" class="nav-link px-2 link-dark">Games</a></li>
+                    <li><a href="?pg=jogos" class="nav-link px-2 link-dark">Games</a></li>
                     
                     <li><a href="?pg=aboutus" class="nav-link px-2 link-dark">About us</a></li>
                 </ul>
