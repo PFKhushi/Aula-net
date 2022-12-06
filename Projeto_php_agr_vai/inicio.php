@@ -16,35 +16,35 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item"  style=" width:100%; height: 650px !important;">
-            <img src="https://i.ytimg.com/vi/fyVKwqu1hMI/maxresdefault.jpg" style="position: relative;" class="d-block w-100">
+            <img src="images/CHESS.jpg"  style="position: relative;" class="d-block w-100">
                 
                 <div class="container">
-                    <div class="carousel-caption text-start">
+                    <div class="carousel-caption text-start" style="background: rgba(0, 0, 0, .5)">
                         <h1>Example headline.</h1>
                         <p>Some representative placeholder content for the first slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                        <p><a class="btn btn-lg btn-light" href="#">Play</a></p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item active" style="width:100%; height: 500px !important;">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+            <div class="carousel-item active" style="width:100%; height: 650px !important;">
+            <img src="images/JOGODAFORCA.png"  style="position: relative;" class="d-block w-100">
 
                 <div class="container" >
-                    <div class="carousel-caption">
+                    <div class="carousel-caption" style="background: rgba(0, 0, 0, .5)">
                         <h1>Another example headline.</h1>
                         <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-light" href="#">Play</a></p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item"  style=" width:100%; height: 500px !important;">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+            <div class="carousel-item"  style=" width:100%; height: 650px !important;">
+            <img src="images/CHESS.jpg"  style="position: relative;" class="d-block w-100">
 
                 <div class="container">
-                    <div class="carousel-caption text-end">
+                    <div class="carousel-caption text-end" style="background: rgba(0, 0, 0, .5)">
                         <h1>One more for good measure.</h1>
                         <p>Some representative placeholder content for the third slide of this carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        <p><a class="btn btn-lg btn-light" href="#">Play</a></p>
                     </div>
                 </div>
             </div>
