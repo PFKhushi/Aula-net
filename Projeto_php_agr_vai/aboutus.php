@@ -1,3 +1,12 @@
+<?php
+
+require('includes/dbhandler.inc.php');
+
+$consulta = "SELECT * FROM aboutus"; 
+$cons = $conn->query($consulta) or die($conn->error);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,24 +18,34 @@
 
 
 <body >
+    <?php while($data = $cons->fetch_array()){  ?>
 
-    <div class="p-5 mb-4 bg-light rounded-3">
-        <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-            <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-            <a class="btn btn-dark" href="?pg=inicio" role="button">Início</a>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                
+                
+                <h1 class="display-5 fw-bold"><?php echo $data['Title'];?></h1>
+                <p class="col-md-8 fs-4"><?php echo $data['Content'];?></p>
+                
+                
+                <a class="btn btn-dark" href="?pg=inicio" role="button">Início</a>
+            </div>
         </div>
-    </div>
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    
-      <main class="px-3">
-        <h1>Contact Information.</h1>
-        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-        <p class="lead">
-        </p>
-      </main>
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        
+        <main class="px-3">
+            <h1>Contact Information.</h1>
+            <p class="lead">
+            </p>
+            <p class="lead">Contact Number: <?php echo $data['CttNum'];?></p>
+            <p class="lead">Contact Email: <?php echo $data['CttMail'];?></p>
+            <p class="lead">
+            </p>
 
-    </div>
+    <?php } ?>
+        </main>
+
+        </div>
     
 
 
